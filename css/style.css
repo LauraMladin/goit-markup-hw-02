@@ -1,0 +1,240 @@
+:root {
+    --link-color: #2196F3;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #212121;
+}
+ul {
+    list-style: none;
+}
+
+.title:link {
+    text-decoration: none;
+    color: #000;
+}
+.title:visited {
+    text-decoration: none;
+    color: #000;
+}
+.title:hover, .title:active {
+    text-decoration: underline;
+    text-decoration-color: var(--link-color);
+}
+
+h4 > span{
+    color: var(--link-color);
+}
+
+.header_links:link {
+    text-decoration: none;
+    color: #212121;
+} 
+
+.header_links:visited {
+    text-decoration: none;
+    color: #212121;
+}
+
+.header_links:hover, .header_links:active{
+    text-decoration: underline;
+    color: var(--link-color);
+}
+
+.contacts:link {
+    text-decoration: none;
+    color: #757575;
+}
+.contacts:visited {
+    text-decoration: none;
+    color: #757575;
+}
+.contacts:hover, .contacts:active {
+    text-decoration: underline;
+    color: var(--link-color);
+}
+
+.web_title {
+font-family: Raleway;
+font-size: 26px;
+font-weight: 700;
+line-height: 1.9375em;
+letter-spacing: 0.03em;
+text-align: left;
+}
+
+.elements {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1em;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+.contacts {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1em;
+    letter-spacing: 0.02em;
+    text-align: left;
+
+}
+
+.color_box {
+    background: #2F303A;
+;
+}
+
+h1 {
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 3.75em;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: #fff;
+
+}
+.button {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.875em;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: #fff;
+    background-color: #2196F3;
+
+}
+
+.qalities {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1em;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+.description {
+    font-size: 14px;
+    line-height: 1.5em;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #757575;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 2.625em;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+
+.team {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.171875em;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+
+.position {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.171875em;
+    letter-spacing: 0.03em;
+    text-align: center;
+
+}
+
+footer {
+    background-color: #2F303A;
+}
+
+.footer_title:link {
+    text-decoration: none;
+}
+.footer_title:visited {
+    text-decoration: none;
+    color: #fff;
+}
+.footer_title:hover, .footer_title:active {
+    text-decoration: underline;
+    text-decoration-color: var(--link-color);
+}
+
+.footer_title {
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.9375em;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #fff;
+}
+div > span {
+    color: var(--link-color);
+}
+address {
+    font-style: normal;
+}
+
+address > div {
+    font-size: 14px;
+    line-height: 1em;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #fff;
+}
+
+.footer_link:link {
+    text-decoration: none;
+}
+
+.footer_link:visited {
+    text-decoration: none;
+}
+
+.footer_link:hover, .footer_link:active {
+    text-decoration: underline;
+    text-decoration-color: var(--link-color);
+}
+
+.footer_link {
+    font-size: 14px;
+    line-height: 1em;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #fff6;
+}
+
+.button_services {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.625em;
+    letter-spacing: 0.03em;
+    text-align: center;
+    cursor: pointer;
+    background-color: #F5F4FA;
+    color:#212121;
+    box-shadow: 0px 2px 2px 0px #0000001F;
+    box-shadow: 0px 1px 2px 0px #00000014;
+    box-shadow: 0px 3px 1px 0px #0000001A;
+}
+.button_services:hover, .button_services:active {
+    color: #fff;
+    background-color: #2196F3;
+}
+.product {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2.25em;
+    letter-spacing: 0.06em;
+    text-align: left;
+}
+
+.category {
+    font-size: 16px;
+    line-height: 1.875em;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color:#757575;
+}
