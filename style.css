@@ -1,22 +1,22 @@
 :root {
     --link-color: #2196F3;
+    --section-color: #2F303A;
 }
+
 body {
     font-family: 'Roboto', sans-serif;
     color: #212121;
 }
+
 ul {
     list-style: none;
 }
 
-.title:link {
+.title:link, .title:visited {
     text-decoration: none;
     color: #000;
 }
-.title:visited {
-    text-decoration: none;
-    color: #000;
-}
+
 .title:hover, .title:active {
     text-decoration: underline;
     text-decoration-color: var(--link-color);
@@ -26,29 +26,21 @@ h4 > span{
     color: var(--link-color);
 }
 
-.header_links:link {
+.header_links:link, .header_links:visited {
     text-decoration: none;
     color: #212121;
 } 
 
-.header_links:visited {
-    text-decoration: none;
-    color: #212121;
-}
-
-.header_links:hover, .header_links:active{
+.header_links:hover, .header_links:focus, .header_links:active{
     text-decoration: underline;
     color: var(--link-color);
 }
 
-.contacts:link {
+.contacts:link, .contacts:visited {
     text-decoration: none;
     color: #757575;
 }
-.contacts:visited {
-    text-decoration: none;
-    color: #757575;
-}
+
 .contacts:hover, .contacts:active {
     text-decoration: underline;
     color: var(--link-color);
@@ -63,26 +55,16 @@ letter-spacing: 0.03em;
 text-align: left;
 }
 
-.elements {
+.elements, .contacts {
     font-size: 14px;
     font-weight: 500;
     line-height: 1em;
     letter-spacing: 0.02em;
     text-align: left;
-}
-
-.contacts {
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 1em;
-    letter-spacing: 0.02em;
-    text-align: left;
-
 }
 
 .color_box {
-    background: #2F303A;
-;
+    background: var(--section-color);
 }
 
 h1 {
@@ -92,17 +74,17 @@ h1 {
     letter-spacing: 0.06em;
     text-align: center;
     color: #fff;
-
 }
+
 .button {
-    font-size: 16px;
     font-weight: 700;
     line-height: 1.875em;
     letter-spacing: 0.06em;
     text-align: center;
     color: #fff;
+    cursor: pointer;
     background-color: #2196F3;
-
+    box-shadow: 0px 4px 4px 0px #00000026;
 }
 
 .qalities {
@@ -129,7 +111,6 @@ h2 {
 }
 
 .team {
-    font-size: 16px;
     font-weight: 500;
     line-height: 1.171875em;
     letter-spacing: 0.03em;
@@ -137,16 +118,13 @@ h2 {
 }
 
 .position {
-    font-size: 16px;
-    font-weight: 400;
     line-height: 1.171875em;
     letter-spacing: 0.03em;
     text-align: center;
-
 }
 
 footer {
-    background-color: #2F303A;
+    background-color: var(--section-color);
 }
 
 .footer_title:link {
@@ -170,6 +148,7 @@ footer {
     text-align: left;
     color: #fff;
 }
+
 div > span {
     color: var(--link-color);
 }
@@ -185,17 +164,13 @@ address > div {
     color: #fff;
 }
 
-.footer_link:link {
+.footer_link:link, .footer_link:visited {
     text-decoration: none;
 }
 
-.footer_link:visited {
-    text-decoration: none;
-}
-
-.footer_link:hover, .footer_link:active {
+.footer_link:hover, .footer_link:focus, .footer_link:active {
     text-decoration: underline;
-    text-decoration-color: var(--link-color);
+    color: var(--link-color);
 }
 
 .footer_link {
@@ -207,7 +182,6 @@ address > div {
 }
 
 .button_services {
-    font-size: 16px;
     font-weight: 500;
     line-height: 1.625em;
     letter-spacing: 0.03em;
@@ -219,7 +193,7 @@ address > div {
     box-shadow: 0px 1px 2px 0px #00000014;
     box-shadow: 0px 3px 1px 0px #0000001A;
 }
-.button_services:hover, .button_services:active {
+.button_services:hover, .button_services:active, .button_services:focus {
     color: #fff;
     background-color: #2196F3;
 }
@@ -232,9 +206,9 @@ address > div {
 }
 
 .category {
-    font-size: 16px;
     line-height: 1.875em;
     letter-spacing: 0.03em;
     text-align: left;
     color:#757575;
 }
+
